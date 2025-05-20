@@ -2,17 +2,17 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# URLs de los archivos CSV (reemplaza 'TU_USUARIO' por tu usuario real de GitHub)
-clientes_url = "https://raw.githubusercontent.com/fran150802/Dashboard-ChocolateExport/main/clientes.csv"
-mercados_url = "https://raw.githubusercontent.com/fran150802/DashboardChocolate-Export/main/mercados.csv"
-exportaciones_url = "https://raw.githubusercontent.com/fran150802/DashboardChocolate-Export/main/exportaciones.csv"
-barreras_url = "https://raw.githubusercontent.com/fran150802/Dashboard-ChocolateExport/main/barreras.csv"
+# URLs de los archivos CSV
+clientes.cvs = "https://raw.githubusercontent.com/fran150802/Dashboard-ChocolateExport/main/clientes.csv"
+mercados.cvs = "https://raw.githubusercontent.com/fran150802/DashboardChocolate-Export/main/mercados.csv"
+exportaciones.cvs = "https://raw.githubusercontent.com/fran150802/DashboardChocolate-Export/main/exportaciones.csv"
+barreras.cvs = "https://raw.githubusercontent.com/fran150802/Dashboard-ChocolateExport/main/barreras.csv"
 
 # Lectura de los archivos CSV
-clientes = pd.read_csv(clientes_url)
-mercados = pd.read_csv(mercados_url)
-exportaciones = pd.read_csv(exportaciones_url)
-barreras = pd.read_csv(barreras_url)
+clientes = pd.read_csv(clientes.cvs)
+mercados = pd.read_csv(mercados.cvs)
+exportaciones = pd.read_csv(exportaciones.cvs)
+barreras = pd.read_csv(barreras.cvs)
 
 # Título del Dashboard
 st.title("Dashboard Interactivo de Exportaciones de Chocolates")

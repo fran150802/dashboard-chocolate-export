@@ -62,4 +62,4 @@ if not mercados.empty:
     plt.xticks(rotation=45)
     st.pyplot(fig2)
 else:
-    st.write("
+    st.write(""No hay datos disponibles para comparación de mercados.")

@@ -32,7 +32,7 @@ exportaciones_filtradas = exportaciones[exportaciones["País"] == pais_seleccion
 
 if not exportaciones_filtradas.empty:
     fig, ax = plt.subplots()
-    ax.bar(exportaciones_filtradas["Producto"], exportaciones_filtradas["Exportaciones(USD millones)"], color='#2E86C1')
+    ax.bar(exportaciones_filtradas["País"], exportaciones_filtradas["Exportaciones (USD millones)"], color='#2E86C1')
     ax.set_xlabel("Producto")
     ax.set_ylabel("Exportaciones (USD millones)")
     ax.set_title(f"Exportaciones de Chocolates en {pais_seleccionado}")

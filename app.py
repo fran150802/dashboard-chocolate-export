@@ -3,10 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # URLs de los archivos CSV (reemplaza 'TU_USUARIO' por tu usuario real de GitHub)
-clientes_url = "https://raw.githubusercontent.com/TU_USUARIO/Dashboard-ChocolateExport/main/clientes.csv"
-mercados_url = "https://raw.githubusercontent.com/TU_USUARIO/DashboardChocolate-Export/main/mercados.csv"
-exportaciones_url = "https://raw.githubusercontent.com/TU_USUARIO/DashboardChocolate-Export/main/exportaciones.csv"
-barreras_url = "https://raw.githubusercontent.com/TU_USUARIO/Dashboard-ChocolateExport/main/barreras.csv"
+clientes_url = "https://raw.githubusercontent.com/fran150802/Dashboard-ChocolateExport/main/clientes.csv"
+mercados_url = "https://raw.githubusercontent.com/fran150802/DashboardChocolate-Export/main/mercados.csv"
+exportaciones_url = "https://raw.githubusercontent.com/fran150802/DashboardChocolate-Export/main/exportaciones.csv"
+barreras_url = "https://raw.githubusercontent.com/fran150802/Dashboard-ChocolateExport/main/barreras.csv"
 
 # Lectura de los archivos CSV
 clientes = pd.read_csv(clientes_url)
